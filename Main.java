@@ -1,34 +1,26 @@
-import java.util.Arrays;
+packpage String;
+import java.util.Scanner;
 
-public class Main {
-    public static void main(String[]args) {
-        String[]  alunos = new String[10];
-        aluno[0] = "João";
-        aluno[1] = "Ana";
-        aluno[2] = "Bia";
-        aluno[3] = "lua";
-        aluno[4]= "lucas";;
-        aluno[5] = "otavio";
-        aluno[6] = "liza";
-        aluno[7] = "eliza";
-        aluno[8] = "amelia";
-        aluno[9] = " dap";
+public class String {
+    Scanner nomes = new Scanner(System.in)
+            String n1,n2,n3,n4,n5;
+    Scanner notas = new Scanner(System.in);
 
+    System.out.println('coloque a 1º nota:',nota.next.Double());
+    System.out.println('coloque a 2º nota:',nota.next.Double());
+    System.out.println('coloque a 3º nota:',nota.next.Double());
 
-        Double[] notas = new Double[10];
-         Double nota = (double) 3.9;
-         Double nota =  (double)5.9;
-         Double nota[2] = (double) 10.0;
-         Double nota[3] = (double) 5.9;
-         Double nota[4] =(double) 10.0;
-         Double nota[5] =(double) 4.7;
-         Double nota[6] =(double) 5.8;
-         Double nota[7] =(double) 6.7;
-         Double nota[8] =(double) 8.7;
-         Double nota[9] =(double) 9.0;
-
-        System.out.println("os alunos são:" + aluno + "As nota são:" + notas  );
-
+    soma = n1+n2+n3;
+    media = soma/3;
+    if(media <= 0 media >; media ++){
+        System.out.println('a nota de',nomes, 'é: nota E');
+        {else(media <=4); media >5; media++)
     }
-
+        System.out.println('a nota de',nomes, 'é: nota D');
+        (media <= 5; media > 7;media++)
+        System.out.println('a nota de',nomes, 'é: nota C ');
+        (media<=7;media >8; media ++)
+        System.out.println('a nota de',nomes, 'é: nota B');
+        (media <=8; media >10;media ++)
+        System.out.println('a nota de',nomes, 'é: nota A');
 }
