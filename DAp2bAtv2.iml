@@ -1,11 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+public class Main {
+    public static void main(String[] args) {
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        int[] lista = new int[]{10,23,34,56};
+
+        int idade = 23;
+
+        int i = new  buscaLinear(lista,idade);;
+
+        if(lista != idade) {
+            System.out.println("a" + idade + "encontra-se na lista");
+
+        }else{
+            System.out.println("a" + idade + "não se encontra na lista");
+        }
+    }
+}
