@@ -1,26 +1,15 @@
-packpage String;
-import java.util.Scanner;
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.printf("Hello and welcome!");
 
-public class String {
-    Scanner nomes = new Scanner(System.in)
-            String n1,n2,n3,n4,n5;
-    Scanner notas = new Scanner(System.in);
-
-    System.out.println('coloque a 1º nota:',nota.next.Double());
-    System.out.println('coloque a 2º nota:',nota.next.Double());
-    System.out.println('coloque a 3º nota:',nota.next.Double());
-
-    soma = n1+n2+n3;
-    media = soma/3;
-    if(media <= 0 media >; media ++){
-        System.out.println('a nota de',nomes, 'é: nota E');
-        {else(media <=4); media >5; media++)
+        for (int i = 1; i <= 5; i++) {
+            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+            System.out.println("i = " + i);
+        }
     }
-        System.out.println('a nota de',nomes, 'é: nota D');
-        (media <= 5; media > 7;media++)
-        System.out.println('a nota de',nomes, 'é: nota C ');
-        (media<=7;media >8; media ++)
-        System.out.println('a nota de',nomes, 'é: nota B');
-        (media <=8; media >10;media ++)
-        System.out.println('a nota de',nomes, 'é: nota A');
 }
