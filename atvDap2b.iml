@@ -1,11 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        List<String> nome = new ArrayList<>();
+        {{
+            nome.add("DAPHNE");
+            nome.add("lua");
+            nome.add("ar");
+            nome.add("laura");
+            nome.add("amor");
+            nome.add("linda");
+        }};
+          System.out.println("tem:"+nome.size());
+
+        {
+         System.out.println(nome.get(2));
+         System.out.println(nome.get(3));
+            
+        }
+
+        {
+            System.out.println(nome.indexOf(0));
+            System.out.println(nome.remove("linda"));
+
+        }
+
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+
+
+
+    }
+}
